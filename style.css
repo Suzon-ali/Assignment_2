@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+:root{
+    --PrimaryColor: #131318;
+    --SecondaryColor: #FF5400;
+    --GrayColor: rgba(19, 19, 24, 0.70);
+    --WhiteColor: #FFF;
+
+}
+
+
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--WhiteColor);
+    font-family: 'Mulish', sans-serif;
+}
+
+/* .hidden{
+    display: none !important;
+} */
+
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* reuse classes */
+
+.text__Bold{
+    font-weight: 800;
+}
+.orange{
+    color: var(--SecondaryColor);
+}
+.primary{
+    color: var(--PrimaryColor);
+}
+.gray{
+    color: var(--GrayColor);
+}
+.white{
+    color: var(--WhiteColor);
+}
+.text_center{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+header > div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0; 
+}
+
+.logo_Container{
+    gap: 1.1rem;
+}
+
+.ul_Container{
+    gap: 3.1rem;
+    justify-content: right;
+}
+
+main{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.hero{
+    background-image: url('img/hero_banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    
+}
+
+.hero h1{
+  font-size: 64px;
+}
+
+.hero_desc{
+    text-align: center;
+    padding: 0 20%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.destination{
+    width: 100%;
+    height: 20px;
+}
+
+.destination > div{
+    width: 70%;
+    margin: 0  auto;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.destination > div div{
+    width: 25%;
+}
+
+select{
+    background: var(--WhiteColor);
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--GrayColor);
+    border-right: 1rem solid transparent;
+    text-transform: capitalize;
+}
+
+
+button{
+    background-color: var(--SecondaryColor);
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: none;
+    color: var(--WhiteColor);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.search__button button{
+    width: 100%;
+    gap: 1rem;
+
+}
+
+.description{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 2rem 0;
+}
+
+.description > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.description > div h2{
+    font-size: 2.6rem;
+}
+
+.description > div p{
+    color: var(--GrayColor);
+}
+
+.description > div ul{
+    list-style: disc;
+    padding: 25px;
+}
+
+.description > div ul p{
+    padding: 5px;
+}
+
+.description > div img{
+    width: 100%;
+    height: 100%;
+}
+.description > div button{
+    padding: 1.25rem 2.4rem;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.choose_destination{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.destination__Header{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.destination__Header h2{
+    padding: 15px 0;
+    font-size: 2.2rem;
+}
+
+.destination__Header p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.countries{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.countrie__row_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.countrie__row_1  > div{
+    width: 50%;
+}
+
+.countrie__row_1  > div img{
+    width: 100%;
+}
+
+.countrie__row_2{
+    display: grid;
+    grid-template-columns: 30% 41.8% 25%;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+.countrie__row_2 > div img{
+    width: 100%;
+    height: 286px;
+}
+
+.countrie__row_3{
+    display: grid;
+    grid-template-columns: calc(40% - 0.6rem) calc(60% -  0.6rem);
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+.countrie__row_3 > div img{
+    width: 100%;
+    height: 286px;
+}
+
+.country__image_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country__image_container p{
+    position: absolute;
+    z-index: 1;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
