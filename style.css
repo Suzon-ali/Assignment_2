@@ -187,6 +187,7 @@ button {
   display: grid;
   grid-template-columns: 50% 50%;
   padding: 2rem 0;
+  margin-bottom: 3rem;
 }
 
 
@@ -346,7 +347,7 @@ button {
 }
 
 .why__Us {
-  padding: 1.2rem 0;
+  padding: 3.2rem 0;
 }
 
 .why_us_title {
@@ -409,6 +410,10 @@ button {
   background: rgba(233, 68, 68, 0.05);
 }
 
+.deals{
+  margin-bottom: 3rem;
+}
+
 .discount1, .discount2 , .discount3{
   width: 100%;
   height: 500px;
@@ -429,6 +434,13 @@ button {
 
 .book__now{
   width: 25%;
+}
+
+.seeAll{
+  width: 30%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  margin: 0 auto;
 }
 
 .dicount_wraper{
@@ -542,8 +554,10 @@ button {
 }
 
 footer{
+  width: 100%;
+  height: auto;
   background: rgba(19, 19, 24, 0.05);
-  margin-top: 5rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -690,6 +704,44 @@ footer ul img{
     font-size: 1.2rem;
     font-weight: 800;
   }
+
+  .description2{
+    grid-template-columns: 100%;
+    gap: 1.2rem;
+  }
+
+  .description2 > div h2{
+    font-size: 1.2rem;
+  }
+
+  .news_letter_wrapper{
+    grid-template-columns: 100%;
+  }
+
+  .save_upto div{
+    width: 55%;
+    bottom: 2.5rem;
+    padding: 0.8rem;
+  }
+
+  .save_upto div h3{
+    font-size: 1.2rem;
+  }
+
+  footer{
+    margin-top: 40rem;
+  }
+
+  footer p{
+    width: 90%;
+    padding: 0;
+  }
+
+  footer ul img{
+    width: 25px;
+  }
+
+
 
 
 }
