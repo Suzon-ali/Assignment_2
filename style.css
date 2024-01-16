@@ -730,15 +730,19 @@ footer ul img{
   }
 
   .discount1, .discount2, .discount3{
-    height: 600px;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
   }
 
   .dicount_wraper{
-    width: 80%;
-    height: 65%;
-    bottom: 2rem;
+    width: 90%;
+    height: auto;
     gap: 0.5rem;
+    position: static;
+    padding: 1rem;
   }
 
   .seeAll{
