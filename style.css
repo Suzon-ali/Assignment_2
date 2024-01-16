@@ -473,6 +473,13 @@ button {
   align-items: center;
   color: var(--GrayColor);
 }
+
+.discount__details div{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
 .discount__details > div > div{
   display: flex;
   justify-content: center;
@@ -606,6 +613,10 @@ footer ul img{
     padding: 0;
   }
 
+  .logo_Container {
+    font-size: 1.2rem;
+  }
+
   .menu_button{
     display: block ;
     display: flex;
@@ -637,6 +648,10 @@ footer ul img{
   .hero_desc {
     font-size: 14px;
     padding: 0 5%;
+  }
+
+  .description {
+    gap: 1rem;
   }
 
   .destination{
@@ -714,6 +729,43 @@ footer ul img{
     font-size: 1.2rem;
   }
 
+  .discount1, .discount2, .discount3{
+    height: 600px;
+    padding: 0;
+  }
+
+  .dicount_wraper{
+    width: 80%;
+    height: 65%;
+    bottom: 2rem;
+    gap: 0.5rem;
+  }
+
+  .seeAll{
+    font-size: 1.2rem;
+    width: 15rem;
+  }
+
+  .dicount_wraper button{
+    width: 8rem;
+    font-size: 0.8rem;
+  }
+
+  .dicount_wraper h3{
+    font-size: 1.2re;
+  }
+
+  .discount__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  
+
+  
   .news_letter_wrapper{
     grid-template-columns: 100%;
   }
@@ -735,6 +787,13 @@ footer ul img{
   footer p{
     width: 90%;
     padding: 0;
+  }
+
+  footer .logo_Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   footer ul img{
