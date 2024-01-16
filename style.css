@@ -836,7 +836,7 @@ footer ul img{
   }
 
   footer{
-    margin-top: 40rem;
+    margin-top: 35rem;
   }
 
   footer p{
@@ -866,6 +866,16 @@ footer ul img{
 
    .customer__say{
     padding: 1rem 0;
+   }
+
+   .bd_mount_tain div{
+    font-size: 1rem;
+    padding: 1rem;
+    line-height: normal;
+   }
+
+   .description2{
+    padding: 0;
    }
 
 
