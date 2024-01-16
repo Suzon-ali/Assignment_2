@@ -602,7 +602,58 @@ footer ul img{
   width: 45px;
 }
 
+.customer__say{
+  padding: 1rem 0 10rem 0;
+}
+
+.customer__say h2{
+ text-align: center;
+ padding: 4rem 0;
+ font-size: 2rem;
+}
+
+.comments{
+  display: flex;
+  gap: 1rem;
+}
+
+.stars img{
+  width: 20px;
+}
+.second__comment{
+  display: block;
+}
+
+.comments > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.comments p{
+  text-align: center;
+  padding: 0.5rem;
+}
+.custoer__pic{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit:cover;
+  object-position:top;
+}
+
 /* Responseive Css */
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
   header {
@@ -803,6 +854,19 @@ footer ul img{
   footer ul img{
     width: 25px;
   }
+
+  .second__comment{
+    display: none !important;
+  }
+
+  .customer__say h2{
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+   }
+
+   .customer__say{
+    padding: 1rem 0;
+   }
 
 
 
